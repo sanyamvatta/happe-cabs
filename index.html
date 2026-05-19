@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happ E Cabs | Premium EV Cabs at Economy Prices</title>
+    <meta
+      name="description"
+      content="Book premium electric outstation cabs with Happ E Cabs. One way trips, professional chauffeurs, clean EV fleet, transparent pricing, and 24x7 support."
+    />
+    <meta
+      name="keywords"
+      content="Happ E Cabs, EV cab booking, electric cab India, one way taxi, outstation cab, premium cab, luxury economy cab"
+    />
+    <meta name="theme-color" content="#315917" />
+    <meta property="og:title" content="Happ E Cabs | Premium EV Cabs at Economy Prices" />
+    <meta
+      property="og:description"
+      content="Luxury at Economy. Book silent, comfortable, fully electric cabs for one way and outstation travel."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/ev-cab-hero.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/ev-cab-hero.svg" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "TaxiService",
+        "name": "Happ E Cabs",
+        "description": "Premium electric cab booking for one way and outstation travel.",
+        "telephone": "+916284430944",
+        "areaServed": "India",
+        "slogan": "Luxury at Economy",
+        "url": "./",
+        "sameAs": []
+      }
+    </script>
+  </head>
+  <body>
+    <div class="site-loader" aria-hidden="true">
+      <div class="loader-mark">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Happ E Cabs home">
+        <span class="brand-logo-shell">
+          <img class="brand-logo" src="assets/happ-e-cabs-logo-light.png" alt="Happ E Cabs logo" />
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation" data-nav-toggle>
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#fleet">Fleet</a>
+        <a href="#pricing">Why EV</a>
+        <a href="#calculator">CO2 Saved</a>
+        <a href="#reviews">Reviews</a>
+        <a href="investors.html">Investors</a>
+      </nav>
+
+      <a class="nav-cta book-link" href="#" aria-label="Book Happ E Cabs on WhatsApp">
+        <span class="whatsapp-icon" aria-hidden="true"></span>
+        <span>Book Now</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-media">
+          <img src="assets/ev-cab-hero.svg" alt="Premium electric cab on a futuristic green city road" />
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Premium electric mobility for modern India</p>
+            <h1 id="hero-title">Premium EV Cabs at Economy Prices</h1>
+            <p class="hero-subtitle">One Way Trips. Outstation Travel. Maximum Comfort.</p>
+            <div class="hero-actions">
+              <a class="button button-primary book-link" href="#">
+                <span class="whatsapp-icon" aria-hidden="true"></span>
+                <span>Book on WhatsApp</span>
+              </a>
+              <a class="button button-ghost call-link" href="tel:+916284430944">
+                <i data-lucide="phone-call"></i>
+                <span>Call To Book Directly</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="booking-card reveal" data-booking-form>
+            <div class="booking-card__head">
+              <span>Instant Outstation Request</span>
+              <strong>Happ E Cabs</strong>
+            </div>
+            <label>
+              <span>From</span>
+              <input name="from" type="text" placeholder="Pickup city" autocomplete="address-level2" />
+            </label>
+            <label>
+              <span>To</span>
+              <input name="to" type="text" placeholder="Destination city" autocomplete="address-level2" />
+            </label>
+            <label>
+              <span>Cab Type</span>
+              <div class="premium-picker" data-cab-picker>
+                <button class="picker-trigger" type="button" data-cab-trigger aria-haspopup="listbox" aria-expanded="false">
+                  <i data-lucide="car-front"></i>
+                  <span data-cab-label>Select cab type</span>
+                  <i data-lucide="chevron-down"></i>
+                </button>
+                <input name="cab" type="hidden" data-cab-input />
+                <div class="picker-popover cab-popover" data-cab-popover>
+                  <div class="cab-options" role="listbox" data-cab-options>
+                    <button type="button" role="option" data-cab-value="Premium 5 Seater EV Cab">
+                      <strong>Premium 5 Seater EV Cab</strong>
+                      <small>Ideal for executive and family trips</small>
+                    </button>
+                    <button type="button" role="option" data-cab-value="Premium 7 Seater EV Cab">
+                      <strong>Premium 7 Seater EV Cab</strong>
+                      <small>Extra space for groups and luggage</small>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </label>
+            <div class="booking-row">
+              <label>
+                <span>Date</span>
+                <div class="premium-picker" data-date-picker>
+                  <button class="picker-trigger" type="button" data-date-trigger aria-haspopup="dialog" aria-expanded="false">
+                    <i data-lucide="calendar-days"></i>
+                    <span data-date-label>Select date</span>
+                    <i data-lucide="chevron-down"></i>
+                  </button>
+                  <input name="date" type="hidden" data-date-input />
+                  <div class="picker-popover calendar-popover" data-date-popover>
+                    <div class="calendar-head">
+                      <button type="button" aria-label="Previous month" data-calendar-prev>
+                        <i data-lucide="chevron-left"></i>
+                      </button>
+                      <strong data-calendar-title>Month</strong>
+                      <button type="button" aria-label="Next month" data-calendar-next>
+                        <i data-lucide="chevron-right"></i>
+                      </button>
+                    </div>
+                    <div class="calendar-weekdays" aria-hidden="true">
+                      <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                    </div>
+                    <div class="calendar-grid" data-calendar-grid></div>
+                  </div>
+                </div>
+              </label>
+              <label>
+                <span>Time</span>
+                <div class="premium-picker" data-time-picker>
+                  <button class="picker-trigger" type="button" data-time-trigger aria-haspopup="listbox" aria-expanded="false">
+                    <i data-lucide="clock-3"></i>
+                    <span data-time-label>Select time</span>
+                    <i data-lucide="chevron-down"></i>
+                  </button>
+                  <input name="time" type="hidden" data-time-input />
+                  <div class="picker-popover time-popover" data-time-popover>
+                    <div class="time-grid" role="listbox" data-time-options></div>
+                  </div>
+                </div>
+              </label>
+            </div>
+            <div class="booking-actions">
+              <button class="button button-primary" type="submit">
+                <i data-lucide="send"></i>
+                <span>Book Now</span>
+              </button>
+              <a class="button button-dark call-link" href="tel:+916284430944">
+                <i data-lucide="phone"></i>
+                <span>Call Now</span>
+              </a>
+            </div>
+          </form>
+        </div>
+
+        <div class="trust-strip reveal" aria-label="Service highlights">
+          <span><i data-lucide="headphones"></i>24x7 Support</span>
+          <span><i data-lucide="badge-check"></i>Professional Chauffeurs</span>
+          <span><i data-lucide="battery-charging"></i>Fully Electric Fleet</span>
+          <span><i data-lucide="route"></i>One Way Fare</span>
+          <span><i data-lucide="shield-check"></i>No Hidden Charges</span>
+        </div>
+      </section>
+
+      <section class="section section-intro" id="pricing">
+        <div class="section-heading reveal">
+          <p class="eyebrow">A smarter cab model</p>
+          <h2>Why pay double for one-way travel?</h2>
+          <p>
+            Happ E Cabs combines lower EV running costs with intelligent one-way pricing, so premium comfort does not
+            need premium waste.
+          </p>
+        </div>
+
+        <div class="model-grid">
+          <article class="feature-panel reveal">
+            <i data-lucide="leaf"></i>
+            <h3>Lower Running Cost = Better Pricing</h3>
+            <p>Electric mobility helps reduce operating cost, and that value is passed into sharper outstation fares.</p>
+          </article>
+          <article class="feature-panel reveal">
+            <i data-lucide="map-pinned"></i>
+            <h3>One Way Pricing</h3>
+            <p>Pay for the journey you actually take, with transparent booking through WhatsApp or direct call.</p>
+          </article>
+          <article class="feature-panel reveal">
+            <i data-lucide="sparkles"></i>
+            <h3>Luxury at Economy</h3>
+            <p>Premium AC cars, smooth automatic drive, silent cabins, and professional chauffeurs at sensible pricing.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="fleet">
+        <div class="split-layout">
+          <div class="section-heading align-left reveal">
+            <p class="eyebrow">Built for comfort</p>
+            <h2>Premium EV Fleet. Clean, quiet, and always ready.</h2>
+            <p>
+              Every ride is designed around practical Indian outstation travel: luggage space, cool cabins, reliability,
+              and the calm of a fully electric drive.
+            </p>
+          </div>
+
+          <div class="advantage-grid">
+            <article class="advantage-card reveal">
+              <i data-lucide="car-front"></i>
+              <span>Premium EV Fleet</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="user-check"></i>
+              <span>Professional Chauffeurs</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="briefcase"></i>
+              <span>Spacious Boot Space</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="volume-x"></i>
+              <span>Silent & Comfortable Ride</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="fuel"></i>
+              <span>No CNG Tension</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="snowflake"></i>
+              <span>Fully Air Conditioned Cars</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="gauge"></i>
+              <span>Smooth Automatic Drive</span>
+            </article>
+            <article class="advantage-card reveal">
+              <i data-lucide="clock-3"></i>
+              <span>Reliable & On-Time Service</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="Happ E Cabs impact counters">
+        <div class="stat reveal">
+          <strong data-counter data-target="100" data-suffix="+">0</strong>
+          <span>Trips</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-counter data-target="100" data-suffix="+">0</strong>
+          <span>Happy Users</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-counter data-target="9000" data-suffix=" kg" data-format="plain">0</strong>
+          <span>CO2 Saved</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-counter data-target="10" data-suffix="+">0</strong>
+          <span>Cities Covered</span>
+        </div>
+      </section>
+
+      <section class="section calculator-section" id="calculator">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Electric advantage</p>
+          <h2>CO2 Saved Calculator</h2>
+          <p>See how much carbon emission you can avoid by choosing an EV cab instead of a conventional fuel cab.</p>
+        </div>
+
+        <div class="calculator-card reveal">
+          <div class="calculator-controls">
+            <div class="calculator-badge">
+              <i data-lucide="leaf"></i>
+              <span>EV impact estimate</span>
+            </div>
+            <label for="distanceInput">Trip distance</label>
+            <div class="distance-input">
+              <input id="distanceInput" type="number" min="10" max="1000" value="250" data-distance-input />
+              <span>km</span>
+            </div>
+            <input
+              id="distanceRange"
+              type="range"
+              min="10"
+              max="1000"
+              value="250"
+              step="10"
+              data-distance-range
+            />
+            <p class="emission-note">Calculated against an estimated fuel cab emission baseline for outstation travel.</p>
+          </div>
+
+          <div class="calculator-results">
+            <div class="result-tile result-main">
+              <span>Estimated CO2 saved</span>
+              <strong><span data-co2-saved>34</span> kg</strong>
+              <small>Cleaner than a conventional fuel cab</small>
+            </div>
+            <div class="result-tile">
+              <span>Tree-day equivalent</span>
+              <strong><span data-tree-equivalent>56</span></strong>
+              <small>Approximate daily absorption comparison</small>
+            </div>
+            <div class="result-tile">
+              <span>Fuel cab emissions avoided</span>
+              <strong><span data-fuel-avoided>34</span> kg</strong>
+              <small>Estimated tailpipe impact avoided</small>
+            </div>
+            <div class="result-tile">
+              <span>Cleaner ride score</span>
+              <strong><span data-cleaner-score>25</span>%</strong>
+              <small>Based on selected distance</small>
+            </div>
+            <div class="saving-meter" aria-hidden="true">
+              <span data-saving-meter></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonials-section" id="reviews">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Loved by riders</p>
+          <h2>Premium reviews, real-world comfort.</h2>
+        </div>
+
+        <div class="marquee" aria-label="Customer reviews">
+          <div class="marquee-track">
+            <article class="review-card">
+              <div class="review-head"><span>AS</span><div><strong>Aman Sharma</strong><small>4.9</small></div></div>
+              <p>Driver arrived before time, car was spotless, and the ride felt better than regular cab services.</p>
+              <div class="stars" aria-label="4.9 stars">★★★★★</div>
+            </article>
+            <article class="review-card">
+              <div class="review-head"><span>PK</span><div><strong>Priya Kohli</strong><small>5.0</small></div></div>
+              <p>Very smooth AC experience for an outstation trip. Silent car, professional behaviour, great pricing.</p>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+            </article>
+            <article class="review-card">
+              <div class="review-head"><span>RG</span><div><strong>Rohan Gupta</strong><small>4.8</small></div></div>
+              <p>Spacious luggage space and clean premium interiors. It felt like affordable luxury.</p>
+              <div class="stars" aria-label="4.8 stars">★★★★★</div>
+            </article>
+            <article class="review-card">
+              <div class="review-head"><span>NS</span><div><strong>Neha Sood</strong><small>4.7</small></div></div>
+              <p>Booked on WhatsApp in minutes. The chauffeur was polite and the fare was clear from the start.</p>
+              <div class="stars" aria-label="4.7 stars">★★★★★</div>
+            </article>
+            <article class="review-card">
+              <div class="review-head"><span>MK</span><div><strong>Manav Khurana</strong><small>4.9</small></div></div>
+              <p>No CNG stop tension, no noise, and very comfortable for family travel. Better than expected.</p>
+              <div class="stars" aria-label="4.9 stars">★★★★★</div>
+            </article>
+
+            <article class="review-card" aria-hidden="true">
+              <div class="review-head"><span>AS</span><div><strong>Aman Sharma</strong><small>4.9</small></div></div>
+              <p>Driver arrived before time, car was spotless, and the ride felt better than regular cab services.</p>
+              <div class="stars">★★★★★</div>
+            </article>
+            <article class="review-card" aria-hidden="true">
+              <div class="review-head"><span>PK</span><div><strong>Priya Kohli</strong><small>5.0</small></div></div>
+              <p>Very smooth AC experience for an outstation trip. Silent car, professional behaviour, great pricing.</p>
+              <div class="stars">★★★★★</div>
+            </article>
+            <article class="review-card" aria-hidden="true">
+              <div class="review-head"><span>RG</span><div><strong>Rohan Gupta</strong><small>4.8</small></div></div>
+              <p>Spacious luggage space and clean premium interiors. It felt like affordable luxury.</p>
+              <div class="stars">★★★★★</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <div class="cta-panel reveal">
+          <p class="eyebrow">Book your next outstation ride</p>
+          <h2>Travel Smarter. Travel Electric.</h2>
+          <p>Premium electric cabs, one-way pricing, and direct booking support at <strong>6284430944</strong>.</p>
+          <div class="hero-actions">
+            <a class="button button-primary book-link" href="#">
+              <span class="whatsapp-icon" aria-hidden="true"></span>
+              <span>Book on WhatsApp</span>
+            </a>
+            <a class="button button-ghost call-link" href="tel:+916284430944">
+              <i data-lucide="phone-call"></i>
+              <span>Call Now</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="index.html" aria-label="Happ E Cabs home">
+          <span class="brand-logo-shell">
+            <img class="brand-logo" src="assets/happ-e-cabs-logo-light.png" alt="Happ E Cabs logo" />
+          </span>
+        </a>
+        <p>Premium EV mobility built for modern India.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Quick Links</strong>
+        <a href="#fleet">Fleet</a>
+        <a href="#calculator">CO2 Calculator</a>
+        <a href="#reviews">Reviews</a>
+        <a href="investors.html">Investors & Network Partners</a>
+      </div>
+      <div class="footer-actions">
+        <strong>Connect</strong>
+        <a class="book-link" href="#"><span class="whatsapp-icon" aria-hidden="true"></span>WhatsApp</a>
+        <a class="call-link" href="tel:+916284430944"><i data-lucide="phone"></i>6284430944</a>
+        <div class="social-links" aria-label="Social links">
+          <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        </div>
+      </div>
+      <p class="copyright">Copyright <span data-year></span> Happ E Cabs. Luxury at Economy.</p>
+    </footer>
+
+    <a class="floating-whatsapp book-link" href="#" aria-label="Book Happ E Cabs on WhatsApp">
+      <span class="whatsapp-icon" aria-hidden="true"></span>
+      <span>Book</span>
+    </a>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
