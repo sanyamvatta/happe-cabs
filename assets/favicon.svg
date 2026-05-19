@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#030503"/>
+  <g filter="url(#glow)">
+    <rect x="24" y="7" width="16" height="16" transform="rotate(45 24 7)" fill="#478221"/>
+    <rect x="13" y="29" width="16" height="16" transform="rotate(45 13 29)" fill="#315917"/>
+    <rect x="35" y="29" width="16" height="16" transform="rotate(45 35 29)" fill="#478221"/>
+    <rect x="24" y="40" width="16" height="16" transform="rotate(45 24 40)" fill="#315917"/>
+    <circle cx="32" cy="32" r="7" fill="#f1fbf4"/>
+  </g>
+  <defs>
+    <filter id="glow" x="1" y="0" width="62" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#478221" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+</svg>
